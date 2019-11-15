@@ -8,23 +8,20 @@ class App extends Component {
   constructor() {
     super();
 
-    this.state = { traders: [] };
+    this.state = { traders: [], };
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then(response => response.json())
-      .then(users => this.setState({ traders: users }));
+      fetch("https://randomuser.me/api/?results=12")
+        .then(response => response.json())
+        .then(users => this.setState({ traders: users.results }));
   }
 
   render() {
+
     return (
       <div className="App">
-        <TraderList test="Test">
-          {this.state.traders.map(trader => (
-            <h1> {trader.name} </h1>
-          ))}
-        </TraderList>
+        <TraderList traders={this.state.traders} />
       </div>
     );
   }
