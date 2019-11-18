@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/crypto-cards/static/css/main.c48e1e21.chunk.css",
-    "main.js": "/crypto-cards/static/js/main.7b2a065b.chunk.js",
-    "main.js.map": "/crypto-cards/static/js/main.7b2a065b.chunk.js.map",
+    "main.css": "/crypto-cards/static/css/main.cc60e940.chunk.css",
+    "main.js": "/crypto-cards/static/js/main.05c32463.chunk.js",
+    "main.js.map": "/crypto-cards/static/js/main.05c32463.chunk.js.map",
     "runtime-main.js": "/crypto-cards/static/js/runtime-main.94edb3af.js",
     "runtime-main.js.map": "/crypto-cards/static/js/runtime-main.94edb3af.js.map",
     "static/js/2.32c380b4.chunk.js": "/crypto-cards/static/js/2.32c380b4.chunk.js",
     "static/js/2.32c380b4.chunk.js.map": "/crypto-cards/static/js/2.32c380b4.chunk.js.map",
     "index.html": "/crypto-cards/index.html",
-    "precache-manifest.9ae3c532a46639728e2f357ddc642cdc.js": "/crypto-cards/precache-manifest.9ae3c532a46639728e2f357ddc642cdc.js",
+    "precache-manifest.5d4d33f7a64eb64ae9a5ba91c4935151.js": "/crypto-cards/precache-manifest.5d4d33f7a64eb64ae9a5ba91c4935151.js",
     "service-worker.js": "/crypto-cards/service-worker.js",
-    "static/css/main.c48e1e21.chunk.css.map": "/crypto-cards/static/css/main.c48e1e21.chunk.css.map"
+    "static/css/main.cc60e940.chunk.css.map": "/crypto-cards/static/css/main.cc60e940.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.94edb3af.js",
     "static/js/2.32c380b4.chunk.js",
-    "static/css/main.c48e1e21.chunk.css",
-    "static/js/main.7b2a065b.chunk.js"
+    "static/css/main.cc60e940.chunk.css",
+    "static/js/main.05c32463.chunk.js"
   ]
 }
