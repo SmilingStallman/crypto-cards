@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #07a61b;
+  background-color: #0abdc6;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
@@ -10,6 +10,9 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  color: #ea00d9;
+  font-family: Freckle Face;
+  font-size: 1.2rem;
 }
 
 .card-container:hover {
@@ -20,4 +23,9 @@
   width: 113px;
   height: 150px;
   margin: 0 auto;
+}
+
+p{
+  margin: 0;
+  padding: 0;
 }
