@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super();
 
-    this.state = { traders: [], nameSearch: "", emailSearch: "" };
+    this.state = { traders: [], nameSearch: "", emailSearch: "", counter: 0, increment: 2 };
   }
 
   componentDidMount() {
@@ -19,6 +19,7 @@ class App extends Component {
   }
 
   render() {
+    
     const { traders, nameSearch, emailSearch } = this.state;
     const filteredNames = traders.filter(trader =>
       (trader.name.first.toLowerCase() + " " + trader.name.last.toLowerCase()).includes(nameSearch.toLowerCase())
