@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   render() {
-    
+
     const { traders, nameSearch, emailSearch } = this.state;
     const filteredNames = traders.filter(trader =>
       (trader.name.first.toLowerCase() + " " + trader.name.last.toLowerCase()).includes(nameSearch.toLowerCase())
@@ -30,7 +30,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1 className="App-title"> Random User Filter</h1>
+        <h1 className="App-title">User Search</h1>
         <SearchBox
           placeholder="search name"
           handleChange={event =>
